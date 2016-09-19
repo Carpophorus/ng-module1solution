@@ -12,7 +12,6 @@
 
 	  $scope.check = function () {
 	    var arrayOfStrings = $scope.items.split(',');
-	    console.log(arrayOfStrings);
 	    var numOfItems = arrayOfStrings.length;
 	    for (var i = 0; i < arrayOfStrings.length; i++) {
 	    	if (arrayOfStrings[i] == "") {
