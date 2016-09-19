@@ -14,6 +14,7 @@
 	    var arrayOfStrings = $scope.items.split(',');
 	    var numOfItems = arrayOfStrings.length;
 	    for (var i = 0; i < arrayOfStrings.length; i++) {
+	    	arrayOfStrings[i] = arrayOfStrings[i].replace(/ /g, "");
 	    	if (arrayOfStrings[i] == "") {
 	    		numOfItems--;
 	    	}
